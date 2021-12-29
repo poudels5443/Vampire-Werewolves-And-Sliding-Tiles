@@ -1,0 +1,14 @@
+Heurustic for Sliding Tile puzzle:
+
+For sliding tile puzzle I've defined the heuristic to be the total number of misplaced tiles in the puzzle.
+This heuristic is admissible becuase the total number of moves to order the tiles correctly
+is at least the number of misplaced tiles. The number of moves for a misplaced tile to get
+into its position is at least once.
+
+Heuristic for Vampires and Werewolves:
+
+For Vampires and Werewolves I've defined the heuristic to be the total number of vampires and 
+werewolves in the east side of the river which can be calculated as 6 - (total number of vampires and werewolves
+in the west). This is an admissible heuristic because the total number of moves to get all the vampires and
+werewolves in the west is at least the number of vampires and werewolves in the west.
+ 
